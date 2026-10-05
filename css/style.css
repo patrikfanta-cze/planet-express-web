@@ -106,8 +106,8 @@ p { margin: 0 0 1em; }
 .hero__actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
 .hero__art { position: relative; }
 .hero__art svg { width: 100%; height: auto; }
-.van-float { animation: float 4s ease-in-out infinite; }
-@keyframes float { 50% { transform: translateY(-6px); } }
+.van-float { animation: float 3.2s ease-in-out infinite; }
+@keyframes float { 0%, 100% { transform: translate(0, 0); } 30% { transform: translate(10px, -18px); } 65% { transform: translate(-6px, -6px); } }
 @media (prefers-reduced-motion: reduce) { .van-float { animation: none; } }
 @media (max-width: 860px) {
   .hero__inner { grid-template-columns: 1fr; padding: 48px 0 56px; }
