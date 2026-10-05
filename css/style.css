@@ -48,13 +48,9 @@ p { margin: 0 0 1em; }
 .btn--small { padding: 10px 18px; font-size: .95rem; }
 
 /* Logo */
-.brand { display: inline-flex; align-items: center; text-decoration: none; color: var(--space); }
-.brand__badge { position: relative; display: inline-flex; align-items: center; padding: 5px 14px 5px 40px; margin-left: 22px;
-  background: var(--green); border: 2.5px solid var(--space); border-radius: 9px; transform: skewX(-9deg); }
-.brand__badge svg { position: absolute; left: -26px; top: 50%; width: 58px; height: 58px; transform: translateY(-50%) skewX(9deg); }
-.brand__name { display: block; font: 400 1.12rem/.98 var(--head); letter-spacing: .01em; color: var(--space); transform: skewX(9deg); }
-.brand__name span { display: block; }
-.footer .brand__badge { border-color: var(--green); }
+.brand { display: inline-flex; align-items: center; }
+.brand .logo { height: 56px; width: auto; }
+.footer .brand .logo { height: 64px; }
 
 /* Hlavička */
 .header { position: sticky; top: 0; z-index: 50; background: rgba(255,255,255,.96); backdrop-filter: blur(6px); border-bottom: 1px solid #e2e4da; }
@@ -80,8 +76,7 @@ p { margin: 0 0 1em; }
   .nav a:not(.btn) { padding: 12px 0; border-bottom: 1px solid #eef0e8; }
   .nav a[aria-current="page"] { text-decoration: none; }
   .nav .btn { margin-top: 12px; justify-content: center; }
-  .brand__name { font-size: 1rem; }
-  .brand__badge svg { width: 52px; height: 52px; left: -23px; }
+  .brand .logo { height: 46px; }
 }
 
 /* Hvězdné nebe (čisté CSS, nic se nestahuje) */

@@ -11,9 +11,9 @@
 <meta property="og:description" content="Jak PLANET EXPRESS s.r.o. zpracovává osobní údaje.">
 <meta property="og:locale" content="cs_CZ">
 <meta name="theme-color" content="#111418">
-<link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
+<link rel="icon" href="favicon.svg?v=3" type="image/svg+xml">
 <link rel="stylesheet" href="css/fonts.css?v=2">
-<link rel="stylesheet" href="css/style.css?v=2">
+<link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 <a class="skip" href="#obsah">Přeskočit na obsah</a>
@@ -21,19 +21,62 @@
 <header class="header" id="top">
   <div class="wrap header__inner">
     <a class="brand" href="index.html" aria-label="Planet Express – úvod">
-      <span class="brand__badge"><svg viewBox="0 0 56 56" aria-hidden="true">
-  <g transform="rotate(-22 28 28)" fill="none" stroke-linecap="round">
-    <path d="M4 28a24 8 0 0 1 48 0" stroke="#111418" stroke-width="7"/>
-    <path d="M4 28a24 8 0 0 1 48 0" stroke="#e8f7a8" stroke-width="3.5"/>
-  </g>
-  <circle cx="28" cy="28" r="17" fill="#5aa9e6" stroke="#111418" stroke-width="2.5"/>
-  <path d="M17 20c3-3 7-2 9 0s1 5-2 6-3 4-6 4-4-3-3-5-1-3 2-5zM31 15c3 0 6 2 7 5s-2 4-4 3-4 1-5-1 0-7 2-7zM30 33c3-1 7 0 8 3s-2 6-5 6-5-2-5-4 0-4 2-5z" fill="#7cc242" stroke="#111418" stroke-width="1.4"/>
-  <g transform="rotate(-22 28 28)">
-    <path d="M52 28a24 8 0 0 1-44 1" fill="none" stroke="#111418" stroke-width="7" stroke-linecap="round"/>
-    <path d="M52 28a24 8 0 0 1-44 1" fill="none" stroke="#e8f7a8" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M1 29l10-7 1 13z" fill="#e8f7a8" stroke="#111418" stroke-width="2" stroke-linejoin="round"/>
-  </g>
-</svg><span class="brand__name" aria-hidden="true">PLANET<span>EXPRESS</span></span></span>
+      <svg class="logo" viewBox="0 0 920 270" role="img" aria-label="Planet Express">
+<defs>
+          <linearGradient id="spd-h" x1="0" x2="1"><stop offset="0" stop-color="#c6e443" stop-opacity="0"/><stop offset="1" stop-color="#c6e443"/></linearGradient>
+        </defs>
+        <!-- černý štítek -->
+        <rect x="8" y="22" width="860" height="226" rx="22" fill="#111418" stroke="#c6e443" stroke-width="6"/>
+        <!-- hvězdy -->
+        <g fill="#fff"><circle cx="300" cy="52" r="2"/><circle cx="560" cy="62" r="1.6"/><circle cx="470" cy="226" r="1.6"/><circle cx="96" cy="58" r="1.6"/><circle cx="640" cy="222" r="2"/></g>
+        <circle cx="610" cy="48" r="2.4" fill="#ffc845"/>
+
+        <!-- dodávka -->
+        <g transform="translate(-30 40) scale(.62)">
+          <path d="M30 196h88M10 222h108M44 248h74" stroke="url(#spd-h)" stroke-width="9" stroke-linecap="round"/>
+          <path d="M122 232l-34 12 34 12z" fill="#ffc845" stroke="#111418" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M140 170l-22-28h22l20 28z" fill="#ffc845" stroke="#111418" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M130 170h150q10 0 16 8l30 40q6 8 6 18v34q0 8-8 8H130q-8 0-8-8v-92q0-8 8-8z" fill="#fff" stroke="#111418" stroke-width="4"/>
+          <path d="M286 184l26 34h-30v-34z" fill="#111418" opacity=".85"/>
+          <path d="M276 184v86" stroke="#d5d9cc" stroke-width="2"/>
+          <rect x="124" y="236" width="206" height="12" fill="#c6e443"/>
+          <text x="198" y="214" text-anchor="middle" font-family="Archivo Black, sans-serif" font-size="21" fill="#111418">PLANET</text>
+          <text x="198" y="231" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="11" letter-spacing="4" fill="#4a6400">EXPRESS</text>
+          <circle cx="326" cy="256" r="5" fill="#ffc845"/>
+          <circle cx="172" cy="278" r="22" fill="#111418" stroke="#fff" stroke-width="3"/><circle cx="172" cy="278" r="9" fill="#a9b0a0"/>
+          <circle cx="290" cy="278" r="22" fill="#111418" stroke="#fff" stroke-width="3"/><circle cx="290" cy="278" r="9" fill="#a9b0a0"/>
+        </g>
+
+        <!-- nápis -->
+        <text x="222" y="126" font-family="Archivo Black, sans-serif" font-size="66" fill="#c6e443" letter-spacing="1">PLANET</text>
+        <text x="222" y="198" font-family="Archivo Black, sans-serif" font-size="66" fill="#ffffff" letter-spacing="1">EXPRESS</text>
+
+        <!-- planeta se šipkou (podle loga klienta) -->
+        <defs>
+          <radialGradient id="ocean2-h" cx="35%" cy="28%" r="80%">
+            <stop offset="0" stop-color="#c9ecfb"/><stop offset=".45" stop-color="#8ccbee"/><stop offset="1" stop-color="#4d82bd"/>
+          </radialGradient>
+          <radialGradient id="shade-h" cx="30%" cy="25%" r="85%">
+            <stop offset=".55" stop-color="#0b2a55" stop-opacity="0"/><stop offset="1" stop-color="#0b2a55" stop-opacity=".35"/>
+          </radialGradient>
+          <clipPath id="globe-h"><circle cx="748" cy="128" r="100"/></clipPath>
+        </defs>
+        <circle cx="748" cy="128" r="100" fill="url(#ocean2-h)"/>
+        <g clip-path="url(#globe-h)" stroke="#111418" stroke-width="4" stroke-linejoin="round">
+          <!-- Amerika -->
+          <path d="M668 60c14-10 34-14 48-8 10 4 6 14-4 18-8 3-14 10-10 18 4 9 16 6 22 14 6 9-2 20-12 24-8 3-10 12-6 22 4 12-2 24-12 30-6 4-12-2-12-10 0-12-6-20-14-26-10-8-22-12-24-26-2-12 6-22 8-34 2-8 6-16 16-22z" fill="#8cc63f"/>
+          <!-- Evropa a Afrika -->
+          <path d="M770 52c10-4 22-2 30 4 6 5 2 12-4 14-6 2-6 8 0 12 8 4 18 2 24 10 6 8 2 18-6 22-10 4-14 14-10 24 4 12 14 20 12 34-2 14-14 24-26 30-10 5-18-2-20-12-2-12 4-24-2-34-6-10-18-12-22-22-4-10 4-18 6-28 2-8-6-14-4-22 2-14 10-26 22-32z" fill="#8cc63f"/>
+          <path d="M802 118c8 4 12 14 8 24-4 12 2 24-6 34-6 8-14 6-14-4 0-10 6-18 2-28-4-10-2-24 10-26z" fill="#6fa833" stroke="none"/>
+          <!-- ostrov -->
+          <path d="M748 46c6-2 12 2 10 8-2 5-10 6-12 1-1-4-1-7 2-9z" fill="#8cc63f"/>
+        </g>
+        <circle cx="748" cy="128" r="100" fill="url(#shade-h)"/>
+        <circle cx="748" cy="128" r="100" fill="none" stroke="#111418" stroke-width="6"/>
+        <!-- šipka -->
+        <path d="M585 236C705 262 836 166 882 92L854 72C806 136 698 240 585 236Z" fill="#f4f9cf" stroke="#111418" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M838 62L900 34L892 104Z" fill="#f4f9cf" stroke="#111418" stroke-width="5" stroke-linejoin="round"/>
+</svg>
     </a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">
       <span class="nav-toggle__bars" aria-hidden="true"></span><span class="sr">Menu</span>
@@ -124,19 +167,62 @@
 <footer class="footer">
   <div class="wrap footer__inner">
     <a class="brand" href="index.html" aria-label="Planet Express – úvod">
-      <span class="brand__badge"><svg viewBox="0 0 56 56" aria-hidden="true">
-  <g transform="rotate(-22 28 28)" fill="none" stroke-linecap="round">
-    <path d="M4 28a24 8 0 0 1 48 0" stroke="#111418" stroke-width="7"/>
-    <path d="M4 28a24 8 0 0 1 48 0" stroke="#e8f7a8" stroke-width="3.5"/>
-  </g>
-  <circle cx="28" cy="28" r="17" fill="#5aa9e6" stroke="#111418" stroke-width="2.5"/>
-  <path d="M17 20c3-3 7-2 9 0s1 5-2 6-3 4-6 4-4-3-3-5-1-3 2-5zM31 15c3 0 6 2 7 5s-2 4-4 3-4 1-5-1 0-7 2-7zM30 33c3-1 7 0 8 3s-2 6-5 6-5-2-5-4 0-4 2-5z" fill="#7cc242" stroke="#111418" stroke-width="1.4"/>
-  <g transform="rotate(-22 28 28)">
-    <path d="M52 28a24 8 0 0 1-44 1" fill="none" stroke="#111418" stroke-width="7" stroke-linecap="round"/>
-    <path d="M52 28a24 8 0 0 1-44 1" fill="none" stroke="#e8f7a8" stroke-width="3.5" stroke-linecap="round"/>
-    <path d="M1 29l10-7 1 13z" fill="#e8f7a8" stroke="#111418" stroke-width="2" stroke-linejoin="round"/>
-  </g>
-</svg><span class="brand__name" aria-hidden="true">PLANET<span>EXPRESS</span></span></span>
+      <svg class="logo" viewBox="0 0 920 270" role="img" aria-label="Planet Express">
+<defs>
+          <linearGradient id="spd-f" x1="0" x2="1"><stop offset="0" stop-color="#c6e443" stop-opacity="0"/><stop offset="1" stop-color="#c6e443"/></linearGradient>
+        </defs>
+        <!-- černý štítek -->
+        <rect x="8" y="22" width="860" height="226" rx="22" fill="#111418" stroke="#c6e443" stroke-width="6"/>
+        <!-- hvězdy -->
+        <g fill="#fff"><circle cx="300" cy="52" r="2"/><circle cx="560" cy="62" r="1.6"/><circle cx="470" cy="226" r="1.6"/><circle cx="96" cy="58" r="1.6"/><circle cx="640" cy="222" r="2"/></g>
+        <circle cx="610" cy="48" r="2.4" fill="#ffc845"/>
+
+        <!-- dodávka -->
+        <g transform="translate(-30 40) scale(.62)">
+          <path d="M30 196h88M10 222h108M44 248h74" stroke="url(#spd-f)" stroke-width="9" stroke-linecap="round"/>
+          <path d="M122 232l-34 12 34 12z" fill="#ffc845" stroke="#111418" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M140 170l-22-28h22l20 28z" fill="#ffc845" stroke="#111418" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M130 170h150q10 0 16 8l30 40q6 8 6 18v34q0 8-8 8H130q-8 0-8-8v-92q0-8 8-8z" fill="#fff" stroke="#111418" stroke-width="4"/>
+          <path d="M286 184l26 34h-30v-34z" fill="#111418" opacity=".85"/>
+          <path d="M276 184v86" stroke="#d5d9cc" stroke-width="2"/>
+          <rect x="124" y="236" width="206" height="12" fill="#c6e443"/>
+          <text x="198" y="214" text-anchor="middle" font-family="Archivo Black, sans-serif" font-size="21" fill="#111418">PLANET</text>
+          <text x="198" y="231" text-anchor="middle" font-family="Manrope, sans-serif" font-weight="800" font-size="11" letter-spacing="4" fill="#4a6400">EXPRESS</text>
+          <circle cx="326" cy="256" r="5" fill="#ffc845"/>
+          <circle cx="172" cy="278" r="22" fill="#111418" stroke="#fff" stroke-width="3"/><circle cx="172" cy="278" r="9" fill="#a9b0a0"/>
+          <circle cx="290" cy="278" r="22" fill="#111418" stroke="#fff" stroke-width="3"/><circle cx="290" cy="278" r="9" fill="#a9b0a0"/>
+        </g>
+
+        <!-- nápis -->
+        <text x="222" y="126" font-family="Archivo Black, sans-serif" font-size="66" fill="#c6e443" letter-spacing="1">PLANET</text>
+        <text x="222" y="198" font-family="Archivo Black, sans-serif" font-size="66" fill="#ffffff" letter-spacing="1">EXPRESS</text>
+
+        <!-- planeta se šipkou (podle loga klienta) -->
+        <defs>
+          <radialGradient id="ocean2-f" cx="35%" cy="28%" r="80%">
+            <stop offset="0" stop-color="#c9ecfb"/><stop offset=".45" stop-color="#8ccbee"/><stop offset="1" stop-color="#4d82bd"/>
+          </radialGradient>
+          <radialGradient id="shade-f" cx="30%" cy="25%" r="85%">
+            <stop offset=".55" stop-color="#0b2a55" stop-opacity="0"/><stop offset="1" stop-color="#0b2a55" stop-opacity=".35"/>
+          </radialGradient>
+          <clipPath id="globe-f"><circle cx="748" cy="128" r="100"/></clipPath>
+        </defs>
+        <circle cx="748" cy="128" r="100" fill="url(#ocean2-f)"/>
+        <g clip-path="url(#globe-f)" stroke="#111418" stroke-width="4" stroke-linejoin="round">
+          <!-- Amerika -->
+          <path d="M668 60c14-10 34-14 48-8 10 4 6 14-4 18-8 3-14 10-10 18 4 9 16 6 22 14 6 9-2 20-12 24-8 3-10 12-6 22 4 12-2 24-12 30-6 4-12-2-12-10 0-12-6-20-14-26-10-8-22-12-24-26-2-12 6-22 8-34 2-8 6-16 16-22z" fill="#8cc63f"/>
+          <!-- Evropa a Afrika -->
+          <path d="M770 52c10-4 22-2 30 4 6 5 2 12-4 14-6 2-6 8 0 12 8 4 18 2 24 10 6 8 2 18-6 22-10 4-14 14-10 24 4 12 14 20 12 34-2 14-14 24-26 30-10 5-18-2-20-12-2-12 4-24-2-34-6-10-18-12-22-22-4-10 4-18 6-28 2-8-6-14-4-22 2-14 10-26 22-32z" fill="#8cc63f"/>
+          <path d="M802 118c8 4 12 14 8 24-4 12 2 24-6 34-6 8-14 6-14-4 0-10 6-18 2-28-4-10-2-24 10-26z" fill="#6fa833" stroke="none"/>
+          <!-- ostrov -->
+          <path d="M748 46c6-2 12 2 10 8-2 5-10 6-12 1-1-4-1-7 2-9z" fill="#8cc63f"/>
+        </g>
+        <circle cx="748" cy="128" r="100" fill="url(#shade-f)"/>
+        <circle cx="748" cy="128" r="100" fill="none" stroke="#111418" stroke-width="6"/>
+        <!-- šipka -->
+        <path d="M585 236C705 262 836 166 882 92L854 72C806 136 698 240 585 236Z" fill="#f4f9cf" stroke="#111418" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M838 62L900 34L892 104Z" fill="#f4f9cf" stroke="#111418" stroke-width="5" stroke-linejoin="round"/>
+</svg>
     </a>
     <span>© <span id="rok">2026</span> PLANET EXPRESS s.r.o. · IČO 09999442 · Tyršova 125, 432 01 Kadaň<br>Zapsaná v obchodním rejstříku vedeném Krajským soudem v Ústí nad Labem, oddíl C, vložka 46788.</span>
     <span class="footer__links"><a href="ochrana-osobnich-udaju.html">Ochrana osobních údajů</a> · <a href="#top">Nahoru ↑</a></span>
