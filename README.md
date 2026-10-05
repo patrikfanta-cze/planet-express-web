@@ -14,7 +14,7 @@ Web je samostatný, záměrně bez odkazů na X-FAST a na další firmy majitele
 - `ochrana-osobnich-udaju.html`, `404.html`
 
 Hlavička a patička jsou v každém souboru zvlášť, takže změnu v nich je potřeba udělat na všech stránkách.
-Logo (černý štítek, dodávka, nápis PLANET EXPRESS a planeta se šipkou podle loga, které klient používá) je na přání klienta a Patrika (5. 10. 2026). Na riziko ochranné známky americké planetexpress.com byl Patrik upozorněn. Logo je vektorové SVG vložené přímo ve stránkách, favicon.svg je jen planeta se šipkou. Ilustrace dodávky v úvodu je vlastní.
+Logo (černý štítek, dodávka, nápis PLANET EXPRESS a planeta se šipkou podle loga, které klient používá) je na přání klienta a Patrika (5. 10. 2026). Na riziko ochranné známky americké planetexpress.com byl Patrik upozorněn. Planeta se šipkou (img/planeta.png) je vyříznutá z originálního loga klienta, takže je přesně stejná. Zbytek loga je SVG vložené přímo ve stránkách, favicon.png je planeta na černé. Pokud klient dodá logo ve větším rozlišení nebo jako vektor, vyměnit img/planeta.png. Ilustrace dodávky v úvodu je vlastní.
 Písma (Archivo Black, Manrope) jsou uložená na webu, GoatCounter má kód `planet-express`.
 
 ## Otevřené body
